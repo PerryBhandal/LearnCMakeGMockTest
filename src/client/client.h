@@ -1,1 +1,4 @@
-
+class Client {
+    public:
+        Client();
+};
