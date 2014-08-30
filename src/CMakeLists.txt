@@ -4,7 +4,8 @@ PROJECT(Learn_CMakeGMockGTest)
 
 subdirs(
 	client
+	socket
 )
 
 add_executable(main main.cpp)
-target_link_libraries(main client)
+target_link_libraries(main client socket)
